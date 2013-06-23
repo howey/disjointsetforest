@@ -48,8 +48,8 @@ void printSet(Forest * f) {
 }
 
 int main() {
-	Forest someSet = {{0}, {0}};
-	Forest * f = &someSet;
+	Forest someForest = {{0}, {0}};
+	Forest * f = &someForest;
 	makeSet(f, 1);
 	makeSet(f, 2);
 	makeSet(f, 3);
